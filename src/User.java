@@ -41,8 +41,8 @@ public class User {
     public void setAdress(String adress) {
         this.adress = adress;
     }
-    public Integer getTelephone() {
-        return telephone;
+    public Integer getPoblation() {
+        return poblation;
     }
 
     public void setPoblation(Integer poblation) {

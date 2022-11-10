@@ -1,16 +1,16 @@
 
 public class Book {
-    private Integer isbn;
+    private String isbn;
     public String title;
     public String author;
     public String gender;
-    public Integer releasedate;
+    public String releasedate;
 
-    public Integer getIsbn() {
+    public String getIsbn() {
         return isbn;
     }
 
-    public void setIsbn(Integer isbn) {
+    public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
 
@@ -23,7 +23,7 @@ public class Book {
     }
 
     public String getAuthor() {
-        return autor;
+        return author;
     }
 
     public void setAuthor(String author) {
@@ -38,11 +38,11 @@ public class Book {
         this.gender = gender;
     }
 
-    public Integer getReleasedate() {
+    public String getReleasedate() {
         return releasedate;
     }
 
-    public void setReleasedate(Integer releasedate) {
+    public void setReleasedate(String releasedate) {
         this.releasedate = releasedate;
     }
 }
