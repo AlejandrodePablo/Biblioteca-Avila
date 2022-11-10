@@ -2,7 +2,7 @@ public class Author {
 
     private String name;
     public String surname;
-    public Integer dateofbirth;
+    public String dateofbirth;
     public String placeofbirth;
 
     public String getName() {
@@ -19,11 +19,11 @@ public class Author {
     public void setSurname(String surname) {
         this.surname = surname;
     }
-    public Integer getDateofbirth() {
+    public String getDateofbirth() {
         return dateofbirth;
     }
 
-    public void setDateofbirth(Integer dateofbirth) {
+    public void setDateofbirth(String dateofbirth) {
         this.dateofbirth = dateofbirth;
     }
     public String getPlaceofbirth() {

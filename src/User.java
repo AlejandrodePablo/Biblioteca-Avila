@@ -2,9 +2,9 @@ public class User {
     private String name;
     public String surname;
     public Integer telephone;
-    public Integer dni;
+    public String dni;
     public String adress;
-    public Integer poblation;
+    public String poblation;
 
     public String getName() {
         return name;
@@ -27,11 +27,11 @@ public class User {
     public void setTelephone(Integer telephone) {
         this.telephone = telephone;
     }
-    public Integer getDni() {
+    public String getDni() {
         return dni;
     }
 
-    public void setDni(Integer dni) {
+    public void setDni(String dni) {
         this.dni = dni;
     }
     public String getAdress() {
@@ -41,11 +41,11 @@ public class User {
     public void setAdress(String adress) {
         this.adress = adress;
     }
-    public Integer getPoblation() {
+    public String getPoblation() {
         return poblation;
     }
 
-    public void setPoblation(Integer poblation) {
+    public void setPoblation(String poblation) {
         this.poblation = poblation;
     }
 }
