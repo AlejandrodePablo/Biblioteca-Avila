@@ -1,3 +1,5 @@
+package com.adpc.biblioteca;
+
 public class Loan {
     public String book;
     public String user;
